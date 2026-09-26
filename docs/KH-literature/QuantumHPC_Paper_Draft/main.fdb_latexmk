@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1787202275.24826 "main.aux" "main.bbl" "main" 1787203267.96979 0
+["bibtex main"] 1787202275.24826 "main.aux" "main.bbl" "main" 1787598919.16766 0
   "./sn-bibliography.bib" 1787199536 6594 6fc2fc7cb3bd8c0a761b70882fa3d7a2 ""
   "./sn-mathphys-num.bst" 1787199974 64166 9adad5d5c1e00c8b866e91fad1a03aa0 ""
-  "main.aux" 1787203268 6720 ac4bc5e58045f70b3486e1fe6d3e6c00 "pdflatex"
+  "main.aux" 1787598920 6720 ac4bc5e58045f70b3486e1fe6d3e6c00 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1787203265.12848 "e:/GitHub/QuantumHPC/docs/KH-literature/QuantumHPC_Paper_Draft/main.tex" "main.pdf" "main" 1787203267.97031 0
+["pdflatex"] 1787598916.21304 "e:/GitHub/QuantumHPC/docs/KH-literature/QuantumHPC_Paper_Draft/main.tex" "main.pdf" "main" 1787598919.16815 0
   "C:/Users/khart/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1787188044 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/khart/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1787188047 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/khart/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1787188047 684 3a51bd4fd9600428d5264cf25f04bb9a ""
@@ -145,16 +145,16 @@
   "C:/Users/khart/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/khart/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/khart/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "e:/GitHub/QuantumHPC/docs/KH-literature/QuantumHPC_Paper_Draft/main.tex" 1787203266 32412 af5a19b22289fb219b6e48d1deceeeea ""
+  "e:/GitHub/QuantumHPC/docs/KH-literature/QuantumHPC_Paper_Draft/main.tex" 1787598916 32398 cda86afd6eb8372b9c8d1c6da7b7a16d ""
   "figures/mpi_efficiency.png" 1787092820 96195 48b5f8945789ebe9c4d76d1175d3fbd6 ""
   "figures/mpi_runtime_scaling.png" 1787092820 110944 18aaccace6e122794f68a3748e055d29 ""
   "figures/mpi_speedup.png" 1787092820 137176 8ebe733a83d505814d5e30d8cf8240dd ""
   "figures/project_flowchart.png" 1787200000 54538 c80b7fab2c59bb80358cf31bf391ab2e ""
   "figures/simulation_time_vs_epsilon.png" 1786940896 177982 8b2651f1cf9d5e930ac93ffc32dd2860 ""
-  "main.aux" 1787203268 6720 ac4bc5e58045f70b3486e1fe6d3e6c00 "pdflatex"
+  "main.aux" 1787598920 6720 ac4bc5e58045f70b3486e1fe6d3e6c00 "pdflatex"
   "main.bbl" 1787202276 3898 1060118a141c00ee5091f93e4cb7c16c "bibtex main"
-  "main.out" 1787203268 3433 f5b716d69ac24b750949b5ecb17e72c6 "pdflatex"
-  "main.tex" 1787203266 32412 af5a19b22289fb219b6e48d1deceeeea ""
+  "main.out" 1787598920 3433 f5b716d69ac24b750949b5ecb17e72c6 "pdflatex"
+  "main.tex" 1787598916 32398 cda86afd6eb8372b9c8d1c6da7b7a16d ""
   "sn-jnl.cls" 1787199974 55857 7d4515312123fd1744517a7415d792ff ""
   (generated)
   "main.aux"

@@ -25,6 +25,8 @@ Write-Host "Copying files..." -ForegroundColor Yellow
 Get-ChildItem $Project -Force | Where-Object {
     $_.Name -notin @(
         ".venv",
+        ".venv-gpu",
+        ".venv-qsim",
         "__pycache__",
         ".git",
         ".vscode",
@@ -42,6 +44,14 @@ Get-ChildItem $Project -Force | Where-Object {
 Get-ChildItem $Release -Directory -Recurse |
 Where-Object { $_.Name -eq "__pycache__" } |
 Remove-Item -Recurse -Force
+
+# Remove local NinaPro dataset
+$NinaPro = Join-Path $Release "data\ninapro"
+
+if (Test-Path $NinaPro) {
+    Remove-Item $NinaPro -Recurse -Force
+    Write-Host "  Removed: data\ninapro"
+}
 
 Write-Host ""
 Write-Host "Creating ZIP..." -ForegroundColor Yellow

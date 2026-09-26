@@ -1,0 +1,2 @@
+timestamp,platform,architecture,python,cpu,jetson_model,ubuntu,l4t,cuda,device,backend,qubits,reps,warmup_runs,benchmark_runs,mean_seconds,std_seconds,min_seconds,max_seconds
+2026-08-31T21:16:43.570372,Windows-11-10.0.26200-SP0,AMD64,3.14.6,"Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",Unavailable,Unavailable,Unavailable,Unavailable,CPU,aer_simulator_statevector,4,1,3,10,0.0007383399875834584,8.880901588087055e-05,0.0006639999337494373,0.0009309001034125686

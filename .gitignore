@@ -151,6 +151,8 @@ activemq-data/
 .env
 .envrc
 .venv
+.venv-gpu/
+.venv-qsim/
 env/
 venv/
 ENV/
@@ -219,3 +221,10 @@ __marimo__/
 
 # SLURM job output logs
 results/logs/*.out
+
+# NinaPro datasets
+data/ninapro/
+
+# GPU Simulator Sourcefiles
+qsim-source/
+qulacs-source/
