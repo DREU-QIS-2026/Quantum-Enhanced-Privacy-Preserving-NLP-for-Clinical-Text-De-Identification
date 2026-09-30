@@ -1,0 +1,2 @@
+timestamp,processes,nodes,ranks_per_node,segments,min_windows_per_segment,max_windows_per_segment,mean_windows_per_segment,real_windows,features,qubits,kernel_pairs,pairs_per_process,condition,backend,iterations,mean_runtime_seconds,std_runtime_seconds,min_runtime_seconds,max_runtime_seconds
+2026-09-29T21:12:46,128,2,64.0,102,7,27,13.764705882352942,1404,8,8,986310,7705.546875,noiseless,cpu,5,0.3897141637746245,0.007420394800075954,0.3847667439840734,0.4026980819180608

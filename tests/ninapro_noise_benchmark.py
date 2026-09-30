@@ -12,9 +12,11 @@ Noisy states are generated with Qiskit Aer density-matrix
 simulation using the project's NoiseModelFactory.
 
 Noise conditions:
+    - depolarizing p=0.001
     - depolarizing p=0.005
     - depolarizing p=0.010
     - depolarizing p=0.020
+    - depolarizing p=0.050
 
 For each NinaPro sample, the noisy-state fidelity relative
 to the ideal state is recorded.

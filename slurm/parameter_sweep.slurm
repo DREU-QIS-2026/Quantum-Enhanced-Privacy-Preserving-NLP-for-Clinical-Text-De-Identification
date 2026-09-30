@@ -1,13 +1,15 @@
 #!/bin/bash
 
 #SBATCH --job-name=quantumhpc-sweep
-#SBATCH --account=tra260010p
+#SBATCH --account=cis260310p
 #SBATCH --partition=RM
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --time=00:10:00
 #SBATCH --array=0-11
 #SBATCH --output=results/logs/slurm-%A_%a.out
+
+cd ~/QuantumHPC
 
 # ============================================================
 # QuantumHPC Parameter Sweep
@@ -77,7 +79,7 @@ echo "========================================"
 # Execute QuantumHPC experiment
 # ------------------------------------------------------------
 
-python main.py \
+python main.py legacy \
     --epsilon "$EPSILON" \
     --condition "$CONDITION"
 

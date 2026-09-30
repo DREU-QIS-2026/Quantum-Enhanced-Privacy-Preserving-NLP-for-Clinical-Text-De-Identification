@@ -1,9 +1,30 @@
+# ==========================================
+# QuantumHPC CPU / MPI Requirements
+# DREU-QIS 2026
+# ==========================================
+#
+# This file extends the core Python
+# requirements with the MPI dependency used
+# by the final Bridges-2 CPU experiments.
+#
+# Install with:
+#
+#   pip install -r requirements-hpc.txt
+#
+# A system MPI implementation is also
+# required. On Bridges-2, the final
+# experiments used OpenMPI 4.0.5 through
+# the PSC module environment.
+#
+# GPU dependencies are intentionally NOT
+# included here. The Bridges-2 GPU
+# experiments used a separate Conda
+# environment with GPU-enabled Qiskit Aer,
+# CUDA 11 dependencies, and cuQuantum.
+# ==========================================
+
 -r requirements.txt
 
-# HPC-specific packages
-# Install these only on HPC systems
 
-mpi4py
-
-# cuQuantum will be added later once we know
-# the CUDA version on the cluster.
+# MPI Python Interface
+mpi4py==4.1.2

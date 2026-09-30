@@ -556,7 +556,7 @@ def main():
 
             print(
                 "ERROR: Weak scaling supports only "
-                "1, 2, or 4 MPI processes."
+                "1, 2, 4, or 8 MPI processes."
             )
 
         raise SystemExit(1)

@@ -2,7 +2,7 @@
 
 ## IEEE Reference
 
-[5] MPI Forum, *MPI: A Message-Passing Interface Standard Version 4.1*, Jun. 2023. [Online]. Available: https://www.mpi-forum.org/docs/
+[5] MPI Forum, *MPI: A Message-Passing Interface Standard Version 4.1*, Nov. 2, 2023. [Online]. Available: https://www.mpi-forum.org/docs/
 
 ---
 

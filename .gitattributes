@@ -1,0 +1,25 @@
+# Keep source files portable across Windows and Linux/HPC systems.
+*.py text eol=lf
+*.sh text eol=lf
+*.slurm text eol=lf
+*.md text eol=lf
+*.tex text eol=lf
+*.bib text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# PowerShell scripts are primarily used locally on Windows.
+*.ps1 text eol=crlf
+
+# Binary/generated document formats.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.xlsx binary
+*.pptx binary
+*.zip binary
+*.mat binary

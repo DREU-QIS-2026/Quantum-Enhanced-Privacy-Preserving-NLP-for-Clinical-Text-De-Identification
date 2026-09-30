@@ -1,0 +1,2 @@
+timestamp,scaling_mode,processes,source_samples,workload_samples,features,qubits,kernel_pairs,pairs_per_process,condition,backend,iterations,mean_runtime_seconds,std_runtime_seconds,min_runtime_seconds,max_runtime_seconds
+2026-09-28T19:07:33,strong,16,102,102,8,8,5253,328.3125,noiseless,cpu,5,0.014399242400000001,0.0003720665476138658,0.013987853,0.01488516

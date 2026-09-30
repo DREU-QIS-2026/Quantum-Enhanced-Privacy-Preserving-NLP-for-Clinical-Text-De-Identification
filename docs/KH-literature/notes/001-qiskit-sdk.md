@@ -14,7 +14,7 @@ This is the official academic reference for the Qiskit SDK recommended by IBM fo
 
 ## Summary
 
-The paper introduces the Qiskit Software Development Kit (SDK), explaining its design philosophy, software architecture, transpilation process, circuit representation, primitives, visualization tools, and extensibility. It also demonstrates an end-to-end quantum computing workflow using Qiskit and serves as the canonical citation for researchers using the SDK. :contentReference[oaicite:0]{index=0}
+The paper introduces the Qiskit Software Development Kit (SDK), explaining its design philosophy, software architecture, transpilation process, circuit representation, primitives, visualization tools, and extensibility. It also demonstrates an end-to-end quantum computing workflow using Qiskit and serves as the canonical citation for researchers using the SDK.
 
 ---
 

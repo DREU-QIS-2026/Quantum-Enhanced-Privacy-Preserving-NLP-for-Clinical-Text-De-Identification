@@ -14,7 +14,7 @@ Qiskit Aer is the simulator used throughout the QuantumHPC project. Primarily us
 
 ## Summary
 
-Qiskit Aer provides high-performance classical simulation of quantum circuits, including statevector, density matrix, stabilizer, tensor-network, and GPU-accelerated simulation methods. It also supports realistic quantum noise models and serves as the primary backend for testing quantum algorithms without requiring access to physical quantum hardware. :contentReference[oaicite:1]{index=1}
+Qiskit Aer provides high-performance classical simulation of quantum circuits, including statevector, density matrix, stabilizer, tensor-network, and GPU-accelerated simulation methods. It also supports realistic quantum noise models and serves as the primary backend for testing quantum algorithms without requiring access to physical quantum hardware.
 
 ---
 

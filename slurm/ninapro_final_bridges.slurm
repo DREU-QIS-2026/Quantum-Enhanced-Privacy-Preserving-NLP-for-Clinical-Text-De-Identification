@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --job-name=ninapro-final
-#SBATCH --account=tra260010p
+#SBATCH --account=cis260310p
 #SBATCH --partition=RM
 #SBATCH --nodes=1
 #SBATCH --ntasks=8
@@ -10,6 +10,8 @@
 #SBATCH --output=results/logs/ninapro-final-%j.out
 
 set -e
+
+cd ~/QuantumHPC
 
 echo "============================================================"
 echo "NinaPro Final Bridges-2 Benchmark"
