@@ -108,7 +108,7 @@
 \author[3]{\fnm{Edmund} \sur{Bombardieri}}\email{ebombardieri@mail.wlu.edu}
 
 % Mentor authorship: confirm during final project meeting before enabling.
-\author[4]{\fnm{Rutal} \sur{Mahajan}}\email{MENTOR EMAIL}
+\author[4]{\fnm{Rutal} \sur{Mahajan}}\email{rutal.mahajan@gmail.com}
 % If mentor is an author, removes from acknowledgements and instead add the following into contributions:
 
 % Rutal Mahajan supervised the project, provided research guidance, and advised
@@ -117,11 +117,11 @@
 
 \affil*[1]{\orgname{Utica University}, \orgaddress{\city{Utica}, \state{NY}, \country{USA}}}
 
-% TODO: Sofia institutional affiliation
-% \affil[2]{\orgname{Organization}, \orgaddress{\city{City}, \state{State}, \country{Country}}}
+% Sofia institutional affiliation
+\affil[2]{\orgname{Pace University}, \orgaddress{\city{New York}, \state{NY}, \country{USA}}}
 
-% TODO: Edmund affiliation
-% \affil[3]{\orgname{Organization}, \orgaddress{\city{City}, \state{State}, \country{Country}}}
+% Edmund affiliation
+\affil[3]{\orgname{Washington and Lee University}, \orgaddress{\city{Lexington City}, \state{Virginia}, \country{USA}}}
 
 % TODO: Add mentor affiliation if added as author
 
@@ -662,7 +662,7 @@ Here, MPI operates at the workload level: each rank evaluates a subset of the
 kernel pairs, and the partial results are subsequently combined to reconstruct
 the complete symmetric kernel matrix.
 
-he original strong- and weak-scaling experiments use
+The original strong- and weak-scaling experiments use
 \(P \in \{1,2,4,8\}\) MPI processes. Subsequent multi-node experiments extend
 the process count to 32 ranks, while the final full-capacity experiment uses
 as many as 128 MPI processes distributed across as many as 16 physical
@@ -1857,8 +1857,8 @@ DREU-QIS research effort.
 
 \section*{Acknowledgements}
 
-The authors thank Rutal Mahajan for mentorship, technical guidance, and support
-throughout the DREU-QIS research project.
+%The authors thank Rutal Mahajan for mentorship, technical guidance, and support
+%throughout the DREU-QIS research project.
 
 This work used Bridges-2 at Pittsburgh Supercomputing Center through allocation
 cis260310p from the Advanced Cyberinfrastructure Coordination
@@ -1884,15 +1884,16 @@ obtained NinaPro DB2 file is included in the project repository.
 
 \section*{Code Availability}
 
-The software developed for this project is maintained in the QuantumHPC project
-repository. The repository includes the NinaPro preprocessing pipeline, manual
-quantum feature-map implementation, quantum-kernel evaluation code, CPU and GPU
-simulation interfaces, depolarizing-noise benchmark, MPI strong- and weak-scaling
-benchmarks, SLURM execution scripts, and analysis utilities used to generate the
-reported results.
+The software developed for this project is maintained in the public QuantumHPC
+project repository:
 
-The repository will be referenced by its final public archival URL or release
-identifier in the completed manuscript.
+\url{https://github.com/DREU-QIS-2026/Quantum-Enhanced-Privacy-Preserving-NLP-for-Clinical-Text-De-Identification}
+
+The repository includes the NinaPro preprocessing pipeline, manual quantum
+feature-map implementation, quantum-kernel evaluation code, CPU and GPU
+simulation interfaces, depolarizing-noise benchmark, MPI strong- and weak-scaling
+benchmarks, SLURM execution scripts, saved experimental results, and analysis
+utilities used to generate the reported results.
 
 \section*{Competing Interests}
 
