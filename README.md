@@ -34,15 +34,15 @@ Each 512-sample EMG window is processed using:
 3. Zero Crossings (ZC)
 4. StandardScaler normalization
 5. PCA reduction from 36 classical features to 8 dimensions
-6. MinMax scaling to \([0,\pi]\)
+6. MinMax scaling to $[0,\pi]$
 7. Manual 8-qubit ZZFeatureMap encoding
 8. Quantum-kernel construction using
 
-\[
+$$
 K(x_i,x_j)
 =
-|\langle \psi(x_i) \mid \psi(x_j)\rangle|^2
-\]
+\left|\langle \psi(x_i) \mid \psi(x_j)\rangle\right|^2
+$$
 
 The quantum feature map is implemented manually using primitive Qiskit gates rather than the high-level Qiskit feature-map library.
 
