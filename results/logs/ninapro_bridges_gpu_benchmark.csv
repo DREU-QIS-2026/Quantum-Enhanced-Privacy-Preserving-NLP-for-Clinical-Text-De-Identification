@@ -1,0 +1,16 @@
+workload,backend,method,device,samples,qubits,run,runtime_seconds,valid
+ninapro_102x102,cpu_statevector,statevector,CPU,102,8,1,7.102120258845389,True
+ninapro_102x102,cpu_statevector,statevector,CPU,102,8,2,7.11372575070709,True
+ninapro_102x102,cpu_statevector,statevector,CPU,102,8,3,7.1524968929588795,True
+ninapro_102x102,cpu_statevector,statevector,CPU,102,8,4,7.092430292163044,True
+ninapro_102x102,cpu_statevector,statevector,CPU,102,8,5,7.1993686789646745,True
+ninapro_102x102,gpu_statevector,statevector,GPU,102,8,1,7.191723841242492,True
+ninapro_102x102,gpu_statevector,statevector,GPU,102,8,2,7.1632554698735476,True
+ninapro_102x102,gpu_statevector,statevector,GPU,102,8,3,7.211977785918862,True
+ninapro_102x102,gpu_statevector,statevector,GPU,102,8,4,7.244016692973673,True
+ninapro_102x102,gpu_statevector,statevector,GPU,102,8,5,7.242476785089821,True
+ninapro_102x102,gpu_tensor_network,tensor_network,GPU,102,8,1,8.277606680989265,True
+ninapro_102x102,gpu_tensor_network,tensor_network,GPU,102,8,2,8.233477615285665,True
+ninapro_102x102,gpu_tensor_network,tensor_network,GPU,102,8,3,8.284977780189365,True
+ninapro_102x102,gpu_tensor_network,tensor_network,GPU,102,8,4,8.287826112937182,True
+ninapro_102x102,gpu_tensor_network,tensor_network,GPU,102,8,5,8.304852639790624,True

@@ -1,6 +1,19 @@
 # ==========================================
-# Quantum HPC Research Project
-# DREU 2026
+# QuantumHPC Core Python Requirements
+# DREU-QIS 2026
+# ==========================================
+#
+# Core dependencies used by the final
+# QuantumHPC CPU, analysis, NinaPro, noise,
+# and Qiskit workflows.
+#
+# MPI-specific dependencies are listed in:
+#   requirements-hpc.txt
+#
+# GPU environments are configured separately
+# because the local qsim CUDA environment and
+# Bridges-2 Qiskit Aer GPU environment use
+# different platform-specific CUDA stacks.
 # ==========================================
 
 # Numerical Computing
@@ -14,13 +27,14 @@ pandas==3.0.3
 matplotlib==3.11.0
 pylatexenc==2.10
 
-# Machine Learning
+# Machine Learning / Feature Processing
 scikit-learn==1.9.0
 
 # Quantum Computing
 qiskit==2.5.0
 qiskit-aer==0.17.2
 
-# Notebook Support (optional)
+# Notebook Support
+# Optional for interactive analysis.
 jupyter
 ipykernel

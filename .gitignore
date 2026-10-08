@@ -151,6 +151,8 @@ activemq-data/
 .env
 .envrc
 .venv
+.venv-gpu/
+.venv-qsim/
 env/
 venv/
 ENV/
@@ -219,3 +221,32 @@ __marimo__/
 
 # SLURM job output logs
 results/logs/*.out
+
+# NinaPro datasets
+data/ninapro/
+
+# GPU Simulator Sourcefiles
+qsim-source/
+qulacs-source/
+
+# Local release / repository-cleanup artifacts
+Release/
+QuantumHPC_cleanup_snapshot*.zip
+
+# LaTeX transient build files
+docs/KH-literature/QuantumHPC_Paper_Draft/*.aux
+docs/KH-literature/QuantumHPC_Paper_Draft/*.bbl
+docs/KH-literature/QuantumHPC_Paper_Draft/*.blg
+docs/KH-literature/QuantumHPC_Paper_Draft/*.fdb_latexmk
+docs/KH-literature/QuantumHPC_Paper_Draft/*.fls
+docs/KH-literature/QuantumHPC_Paper_Draft/*.log
+docs/KH-literature/QuantumHPC_Paper_Draft/*.out
+docs/KH-literature/QuantumHPC_Paper_Draft/*.synctex.gz
+docs/KH-literature/QuantumHPC_Paper_Draft/*.toc
+docs/KH-literature/QuantumHPC_Paper_Draft/*.lof
+docs/KH-literature/QuantumHPC_Paper_Draft/*.lot
+
+# Old manuscript scratch copies / backups
+docs/KH-literature/QuantumHPC_Paper_Draft/main copy.*
+docs/KH-literature/QuantumHPC_Paper_Draft/main_backup.*
+docs/KH-literature/QuantumHPC_Paper_Draft/sn-bibliography_backup.bib
