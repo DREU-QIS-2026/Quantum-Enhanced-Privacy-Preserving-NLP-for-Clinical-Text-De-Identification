@@ -38,11 +38,11 @@ Each 512-sample EMG window is processed using:
 7. Manual 8-qubit ZZFeatureMap encoding
 8. Quantum-kernel construction using
 
-$$
+```math
 K(x_i,x_j)
 =
 \left|\langle \psi(x_i) \mid \psi(x_j)\rangle\right|^2
-$$
+```
 
 The quantum feature map is implemented manually using primitive Qiskit gates rather than the high-level Qiskit feature-map library.
 
